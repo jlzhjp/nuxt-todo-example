@@ -6,17 +6,17 @@ export default defineEventHandler(() => {
     {
       id: 0,
       title: "learn vue",
-      completed: true,
+      completed: true
     },
     {
       id: 1,
       title: "learn nuxt",
-      completed: false,
+      completed: false
     },
     {
       id: 2,
       title: "learn react",
-      completed: false,
-    },
+      completed: false
+    }
   ]
 })

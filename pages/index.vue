@@ -2,7 +2,7 @@
 import TodoItem from "~/components/todoItem.vue"
 import Todo from "~/models/todo"
 
-const { data: todos }= useFetch<Todo[]>("/api/todos")
+const { data: todos } = useFetch<Todo[]>("/api/todos")
 </script>
 
 <template>
